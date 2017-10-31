@@ -5,9 +5,7 @@ import java.util.List;
 
 import static by.bsu.zakharchenya.first.BSV.mmm;
 
-/**
- * Created by Lagarde on 09.10.2017.
- */
+
 public class DSV {
 
 

@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73f5b50-942c-4ab2-8bd3-f4f9e1a1c7cd" name="Default" comment="" />
+    <list default="true" id="d73f5b50-942c-4ab2-8bd3-f4f9e1a1c7cd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/fourth/MMKTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/by/bsu/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/second/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/by/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/desktop.ini" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/L.iml" afterPath="$PROJECT_DIR$/L.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java" afterPath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java" afterPath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java" afterPath="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +45,24 @@
       <file leaf-file-name="DSV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1153#1154#0" expanded="false" />
+                <element signature="e#1192#1193#0" expanded="false" />
+                <element signature="e#1241#1242#0" expanded="false" />
+                <element signature="e#1280#1281#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSVTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/BSVTest.java">
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,11 +71,14 @@
       <file leaf-file-name="DSVTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/DSVTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="352">
               <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="e#1022#1023#0" expanded="false" />
                 <element signature="e#1082#1083#0" expanded="false" />
+                <element signature="e#1123#1124#0" expanded="false" />
+                <element signature="e#1179#1180#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,7 +87,7 @@
       <file leaf-file-name="L.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="132">
               <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
@@ -67,12 +97,15 @@
       <file leaf-file-name="NSV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/NSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="572">
+              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="false" />
+                <element signature="e#399#400#0" expanded="false" />
+                <element signature="e#993#994#0" expanded="false" />
+                <element signature="e#1049#1050#0" expanded="false" />
+                <element signature="e#1086#1087#0" expanded="false" />
+                <element signature="e#1122#1123#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,10 +114,13 @@
       <file leaf-file-name="NSVTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/NSVTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="792">
+              <caret line="40" column="1" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="40" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#854#855#0" expanded="false" />
+                <element signature="e#910#911#0" expanded="false" />
+                <element signature="e#959#960#0" expanded="false" />
+                <element signature="e#1015#1016#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -93,8 +129,8 @@
       <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/TestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state relative-caret-position="314">
+              <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,12 +138,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MMK.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MMK.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="418">
+              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMKTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/fourth/MMKTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,9 +165,16 @@
       <file leaf-file-name="BSV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="882">
+              <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#367#375#0" expanded="false" />
+                <element signature="e#860#868#0" expanded="false" />
+                <element signature="e#910#918#0" expanded="false" />
+                <element signature="e#960#968#0" expanded="false" />
+                <element signature="e#1010#1018#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +187,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -146,14 +206,15 @@
         <option value="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/Demo.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/second/DSVTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/NSV.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/DSVTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/NSVTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/TestService.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/BSVTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/fourth/MMKTest.java" />
       </list>
     </option>
   </component>
@@ -171,10 +232,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1420" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -192,6 +253,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -201,7 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -230,6 +292,10 @@
               <option name="myItemId" value="zakharchenya" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fourth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -237,7 +303,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -267,7 +333,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -285,7 +351,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -315,7 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,7 +411,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -375,7 +441,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="L1" />
+              <option name="myItemId" value="IISM_L1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -401,25 +467,24 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../idea-ofb-encryption-master/Lab2_KBRS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="by.bsu.zakharchenya.first" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BSVTest">
+  <component name="RunManager" selected="JUnit.MMKTest">
     <configuration default="false" name="BSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -484,6 +549,58 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="by.bsu.zakharchenya.first" />
       <option name="MAIN_CLASS_NAME" value="by.bsu.zakharchenya.first.NSVTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MMKTest.expKolmogorovTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.bsu.zakharchenya.fourth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="L" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.bsu.zakharchenya.fourth" />
+      <option name="MAIN_CLASS_NAME" value="by.bsu.zakharchenya.fourth.MMKTest" />
+      <option name="METHOD_NAME" value="expKolmogorovTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MMKTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.bsu.zakharchenya.fourth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="L" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.bsu.zakharchenya.fourth" />
+      <option name="MAIN_CLASS_NAME" value="by.bsu.zakharchenya.fourth.MMKTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -878,16 +995,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BSVTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.DSVTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.NSVTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MMKTest.expKolmogorovTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MMKTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BSVTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NSVTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DSVTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MMKTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MMKTest.expKolmogorovTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BSVTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NSVTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DSVTest" />
       </list>
     </recent_temporary>
   </component>
@@ -910,70 +1031,72 @@
       <workItem from="1507635915380" duration="3605000" />
       <workItem from="1508221838178" duration="4377000" />
       <workItem from="1508240337592" duration="3942000" />
+      <workItem from="1509394358324" duration="2721000" />
+      <workItem from="1509475386436" duration="5457000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BSVTest - 2017.10.17 at 14h 54m 47s.xml">
-      <configuration name="BSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 11m 43s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSVTest - 2017.10.17 at 14h 55m 56s.xml">
-      <configuration name="BSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 12m 48s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSVTest - 2017.10.17 at 14h 57m 24s.xml">
-      <configuration name="BSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 12m 51s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSVTest - 2017.10.17 at 15h 45m 26s.xml">
-      <configuration name="BSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 14m 56s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NSVTest - 2017.10.17 at 10h 33m 09s.xml">
-      <configuration name="NSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 17m 50s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NSVTest - 2017.10.17 at 10h 33m 29s.xml">
-      <configuration name="NSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 18m 59s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NSVTest - 2017.10.17 at 10h 33m 51s.xml">
-      <configuration name="NSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 20m 06s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NSVTest - 2017.10.17 at 10h 34m 16s.xml">
-      <configuration name="NSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 21m 06s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NSVTest - 2017.10.17 at 10h 34m 25s.xml">
-      <configuration name="NSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 28m 01s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NSVTest - 2017.10.17 at 14h 47m 26s.xml">
-      <configuration name="NSVTest" configurationId="JUnit" />
+    <history-entry file="MMKTest - 2017.10.31 at 23h 29m 24s.xml">
+      <configuration name="MMKTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23806000" />
+    <option name="totallyTimeSpent" value="31984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-9" y="-9" width="2578" height="1420" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28214827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4183267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28856915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -982,37 +1105,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998391" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252818" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41867954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44740972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1022,15 +1114,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1039,14 +1123,186 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/NSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1049#1050#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/NSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#854#855#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="102" column="31" lean-forward="true" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/BSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/DSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
+            <element signature="e#1082#1083#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/NSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1049#1050#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/NSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#854#855#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="46" column="5" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1064,8 +1320,11 @@
         <state relative-caret-position="476">
           <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#1022#1023#0" expanded="false" />
             <element signature="e#1082#1083#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1083,9 +1342,12 @@
         <state relative-caret-position="731">
           <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1049#1050#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1095,7 +1357,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1114,7 +1379,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="56" column="61" lean-forward="false" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,9 +1395,11 @@
         <state relative-caret-position="1122">
           <caret line="66" column="64" lean-forward="false" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1135,8 +1409,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#1022#1023#0" expanded="false" />
             <element signature="e#1082#1083#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1155,7 +1432,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,7 +1470,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,9 +1494,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1230,7 +1523,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1272,79 +1572,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/BSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/DSVTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="352">
           <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#1022#1023#0" expanded="false" />
             <element signature="e#1082#1083#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="132">
           <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/NSVTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/NSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/BSVTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/first/BSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="882">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#375#0" expanded="false" />
+            <element signature="e#860#868#0" expanded="false" />
+            <element signature="e#910#918#0" expanded="false" />
+            <element signature="e#960#968#0" expanded="false" />
+            <element signature="e#1010#1018#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/second/DSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="264">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/third/NSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1049#1050#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/NSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#854#855#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/first/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="314">
+          <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1353,9 +1679,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/bsu/zakharchenya/fourth/MMK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/bsu/zakharchenya/fourth/MMKTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-
 public class BSV {
 
     public static final long M = 2147483648L;
@@ -47,9 +46,7 @@ public class BSV {
             int s = (int) (c.get(i) * K);
             row.add(v.get(s));
             v.set(s, b.get(i + K));
-            //System.out.print(row.get(i) + ", ");
         }
-        //System.out.println("\n\n");
         return row;
     }
 
