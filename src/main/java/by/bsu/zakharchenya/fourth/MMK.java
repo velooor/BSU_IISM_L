@@ -1,7 +1,11 @@
 package by.bsu.zakharchenya.fourth;
 
+import by.bsu.zakharchenya.temp.Uniform;
+
+import java.util.Arrays;
 import java.util.List;
 
+import static by.bsu.zakharchenya.first.BSV.mkm;
 import static by.bsu.zakharchenya.first.BSV.mmm;
 
 /**
@@ -21,122 +25,129 @@ public class MMK {
         row.forEach(alpha -> g(alpha));
         double a = 0;
         for (int i = 0; i < n; i++) {
-            //row.set(i, g(row.get(i)));
             a += f(row.get(i))/Math.exp(-row.get(i));
         }
         return a/n;
     }
 
-}
 
+    private static double g(double x, double y){
+        return Math.signum(x*x-y*y+2);
+    }
 
-/*
+    public static double z(double alpha, double a, double b){
+        return (b-a)*alpha+a;
+    }
+    public static double density(double a, double b){
+        return 1/(b-a);
+    }
 
-int main()
-{
-        int point_a = -1;
-        int point_b = 1;
-        int number_of_random=0;
-        double s=0;
-        double x;
-        double y;
-        printf("how much random points? ");
-        scanf("%ld",&number_of_random);
-        srand((unsigned)time(NULL));
-        for (int i=0;i<number_of_random;i++)
-        {
-             x = 2.0*rand()/RAND_MAX-1.0; //генерируем x в интервале [-1,1]
-             y = 2.0*rand()/RAND_MAX-1.0; //генерируем y в интервале [-1,1]
-//если сгенерированное число попало в площадь, ограниченную кривой
-//на данной координате значение интеграла увеличивается на 1
-             if(fabs(y)<func(x)) s+=1
+    public static double mmkDoubleI(double a1, double b1, double a2, double b2, int count){
+        double sum = 0.;
+        double ksi;
+
+        List<Double> row1 = mkm(count);
+        row1.forEach(alpha -> z(alpha, a1 , b1));
+        List<Double> row2 = mkm(count);
+        row2.forEach(alpha -> z(alpha, a2 , b2));
+
+        for(int i =0; i<count;i++){
+            ksi = g(row1.get(i), row2.get(i))/(density(a1,b1)*density(a2,b2));
+            sum += ksi;
         }
-//Делим полученное значение интеграла на общее число "выбросов"
-//метода монте-карло
-        s=s/(double)number_of_random*(point_b-point_a);
-        printf("\nintegral %f \n",s);
-        return 0;
-}
+        return sum/count;
 
-
-
-
-
-
-double bv(double[] a, double[] b, double c,int m,int n){
-        int i, tmp;
-        double result = c;
-        for (i =0;i<n; i++)
-        result +=b[i]*a[i];
-        tmp=(int)(result/m);
-        result -=((double)tmp)*((double)m);
-        for(i=1;i<n;i++)
-            a[i-1]=a[i];
-        a[n-1]=result;
-        return result/m;
     }
-    // exponential variate p(x )=lexp(-lx),x>=0
-    double ev(double 1,double a) {
-        return –log(1-a)/1;
-    }
-    double avg(double*a,int n){
-        double s=0;
-        for(int i=0;i<n;i++)
-            s+=*(a+i);
-        return s/n;
-    }
-    double var(double*a,int n){
-        double s=0,s=2;
-        for(int i=0;i<n;i++){
-            s+=a[i];
-            s2+=a[i]*a[i];
-        }
-        return(s2-s*s/n)/(n-1);
-    }
-    void main() {
-        int i,j;
-    const int n=1000;
-        double a[2][n];//two pseudorandom sequences
-        double b[2][n];//coefficients
-        double c[2];    //increment
-        int m[2]           //modules
 
-        //initial values
-        srand((unsigned) time (NULL) );
-        for(j=0;j<2;j++){
-            m[j] =RAND_MAX-rand();
-            for(i=0;i<n;i++){
-                a[j][i]=rand()%m[j];
-                b[j][i]=rand();
+
+
+
+
+    public static double[] solve(double[][]_A, double[]_f, int _N, int m) {
+        int size = _A.length;
+        double[][] A = new double[size][size];
+        for (int i = 0; i < size; i++) {
+            A[i] = new double[size];
+            for (int j = 0; j < size; j++) {
+                A[i][j] = _A[i][j];
             }
-            c[j]=rand();
+        }
+        double[] f = Arrays.copyOf(_f, _f.length);
+        int chainLength = _N;
+        int implementations = m;
+
+        if(!lambdaChecker(size, A)) {
+            throw new IllegalArgumentException("[ ATTENTION ] Lambda checker returned false result! Calculating interrupted...");
         }
 
-        //computation
-        double tmp;
-    double*A =new double[n];
-    double*x =new double[n];
-    double*y =new double[n];
-        ofstream out(“integral.txt”);
-        for(j=1;j<=5;j++){
-            for(i=0;i<n;i++){
-                do{
-                    do{
-                        x[i]=ev(2,dv(a[0],b[0],c[0],m[0],n));
-                        y[i]=ev(0.5,dv(a[1],b[1],c[1],m[1],n));
-                    }
-                    while(x[i]-y[i]==0);
-                    tmp= 1+log(pow(y[i]-x[i],2));
+        double alpha;
+        double[] x = new double[size];
+        double[] pi = new double[size];
+        double[][] p = new double[size][size];
+        double[][] h = new double[size][size];
+
+        for(int i = 0; i<size;i++) {
+            for(int j = 0; j <size;j++) {
+                if(i == j) h[i][j] = 1;
+                else h[i][j] = 0;
+            }
+        }
+        for(int i = 0; i<size;i++) {
+            x[i] = 0.;
+        }
+        for (int i = 0; i < size; i++) {
+            pi[i] = (double) 1 / size;
+        }
+        for(int i =0; i<size;i++) {
+            p[i] = new double[size];
+            for (int j = 0; j < size; j++) {
+                p[i][j] = (double) 1 / size;
+            }
+        }
+        for(int j = 0; j<size;j++) {
+            int[] chain = new int[chainLength + 1];
+            double[] weights = new double[chainLength + 1];
+            double[] ksi = new double[implementations];
+            for(int i  = 0; i<implementations; i++) {
+                ksi[i] = 0.;
+            }
+            for (int i = 0; i < implementations; i++) {
+                alpha = Math.random();
+                if (alpha < 0.5) chain[0] = 0;
+                else chain[0] = 1;
+                for (int k = 1; k <= chainLength; k++) {
+                    alpha = Math.random();
+                    if (alpha < 0.5) chain[k] = 0;
+                    else chain[k] = 1;
                 }
-                while(tmp<0);
-                A[i]=sqrt(tmp);
+                if (pi[chain[0]] > 0) weights[0] = h[j][chain[0]] / pi[chain[0]];
+                else weights[0] = 0.;
+                for (int k = 1; k <= chainLength; k++) {
+                    if (p[chain[k - 1]][chain[k]] > 0)
+                        weights[k] = weights[k - 1] * A[chain[k - 1]][chain[k]] / p[chain[k - 1]][chain[k]];
+                    else weights[k] = 0.;
+                }
+                for (int k = 0; k <= chainLength; k++) {
+                    ksi[i] += weights[k] * f[chain[k]];
+                }
             }
-            out<<avg(A,n)<<”\n”;
-            out<<var(A,n)<<”\n”;
-            out<<0.6745*sqrt(var(A,n)/n)<<”\n\n”;
+            for (int i = 0; i < implementations; i++) {
+                x[j] += ksi[i];
+            }
+            x[j]/=implementations;
         }
+        return x;
     }
-
- */
-
-
+    public static boolean lambdaChecker(int size, double[][] A){
+        double sum;
+        double max  = Double.MIN_VALUE;
+        for(int i = 0; i<size;i++){
+            sum = 0.;
+            for(int j = 0; j<size;j++){
+                sum += Math.abs(A[i][j]);
+            }
+            if (sum > max) max = sum;
+        }
+        return max < 1;
+    }
+}
